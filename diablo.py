@@ -1,0 +1,21 @@
+import pyautogui
+from time import sleep
+
+pyautogui.moveTo(1776, 19, duration=2)
+pyautogui.click()
+sleep(0.2)
+pyautogui.moveTo(139, 161, duration=2)
+pyautogui.click(clicks=2)
+sleep(40)
+pyautogui.moveTo(981, 146, duration=2)
+pyautogui.click()
+sleep(0.2)
+pyautogui.moveTo(1513, 153, duration=2)
+pyautogui.click()
+sleep(0.2)
+pyautogui.moveTo(210, 880, duration=2)
+pyautogui.click()
+sleep(50)
+pyautogui.moveTo(1653, 917, duration=2)
+pyautogui.click()
+sleep(0.2)
